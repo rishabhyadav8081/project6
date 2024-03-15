@@ -1,0 +1,43 @@
+*{
+    margin: o;
+    padding: o;
+    box-sizing: border-box;
+}
+.main{
+  background: #b75e5e;
+  margin-left: 80vh;
+  margin-top: 38vh;
+}
+#container{
+    /* height: 200px; */
+    width: 300px;
+    background-color: #8665b4;
+}
+#input {
+        height: 30px;
+        width: 100%;
+        outline: none;
+        border: 0;
+        background-color:white;
+        font-size: 20px;
+}
+
+#todo{
+     width: 270px;
+     height: 100%;
+     display: block;
+     margin-top: 0px;
+}
+#todo li{
+    position: relative;
+    font-size: 20px;
+    cursor: pointer;
+}
+#todo li button{
+    position: absolute;
+    right: 0px;
+}
+.done{
+ text-decoration:line-through;
+ color: #373030;
+}
